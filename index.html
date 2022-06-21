@@ -9,6 +9,12 @@
       .table-3{
         width: 180px;
       }
+      .table-4{
+        height: 170px;
+      }
+      .table-4 tr{
+        height: 10px;
+      }
     </style>
 </head>
 <body>
@@ -102,6 +108,31 @@
           <td colspan="3"> combinada 2</td>
         </tr>
       </tbody>
+    </table>
+
+    <br>
+
+    <h2>tabla 4:rowspan</h2>
+    <hr>
+    <table border="3" class="table-4">
+      <tbody>
+        <tr>
+          <td rowspan="2"> uno</td>
+          <td colspan="5"> dos</td>
+        
+        </tr>
+        
+         <tr>
+         <td colspan="2" rowspan="2"> dos</td>
+         <td colspan="2" rowspan="2"> cuatro</td>
+         <td rowspan="2"> seis</td>
+        </tr>
+
+        <tr>
+         <td> uno</td>
+        </tr>
+      </tbody>
+
     </table>
 
   
