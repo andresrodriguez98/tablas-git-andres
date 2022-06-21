@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tablas Git</title>
+    <style>
+      .table-3{
+        width: 180px;
+      }
+    </style>
 </head>
 <body>
     <h1> tablas en HTML</h1>
@@ -68,5 +73,37 @@
         </tbody>
     </table>
 
+    <br>
+
+    <h2>tabla 3: colspan</h2>
+    <hr>
+    <table border="1" class="table-3">
+      <thead>
+        <tr>
+          <th colspan="6"> titulo</th>
+        </tr>
+
+      </thead>
+
+      <tbody>
+        <tr>
+          <td colspan="6"> primera fila</td>
+        </tr>
+
+        <tr>
+          <td colspan="2"> combinada 1</td>
+          <td colspan="2"> combinada 2</td>
+          <td> simple 3</td>
+          <td> simple 4</td>
+        </tr>
+
+        <tr>
+          <td colspan="3"> combinada 1</td>
+          <td colspan="3"> combinada 2</td>
+        </tr>
+      </tbody>
+    </table>
+
+  
 </body>
 </html>
