@@ -1,0 +1,44 @@
+body {
+    border: 20px;
+    padding: 10px;
+    background-color: aqua;
+  }
+  
+  .title {
+    color: red;
+    text-align: center;
+  }
+  
+  h3 {
+    font-size: 25px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .table-1 {
+    height: 100px;
+    background-color: rgb(63, 72, 205);
+    border: 5px;
+    padding: 10px;
+  }
+  
+  .table-2 {
+    height: 100px;
+    background-color: rgb(38, 168, 38);
+    border: 5px;
+    padding: 10px;
+  }
+  
+  .table-3 {
+    width: 100px;
+    background-color: rgb(218, 4, 4);
+    border: 5px;
+    padding: 10px;
+  }
+  
+  .table-4 {
+    height: 100px;
+    background-color: coral;
+    border: 5px;
+    padding: 10px;
+  }

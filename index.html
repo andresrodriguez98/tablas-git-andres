@@ -5,24 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tablas Git</title>
-    <style>
-      .table-3{
-        width: 180px;
-      }
-      .table-4{
-        height: 170px;
-      }
-      .table-4 tr{
-        height: 10px;
-      }
-    </style>
+    <link rel="stylesheet" href="styles.css">
+  
+
 </head>
 <body>
-    <h1> tablas en HTML</h1>
+    <h1 class="title"> TABLAS EN HTML</h1>
+
     <br>
-    <h2>tabla 1: encabezado horizontal</h2>
-    <hr>
-    <table border="1">
+
+    <h3>Tabla 1: Encabezado Horizontal</h3>
+    
+    <table border="1" class="table-1">
         <thead>
             <tr>
                 <th>nombre</th>
@@ -46,10 +40,10 @@
 
     <br>
 
-    <h2> tabla 2: encabezado vertical</h2>
-    <hr>
+    <h3> Tabla 2: Encabezado Vertical</h3>
+    
 
-    <table border="1">
+    <table border="1" class="table-2">
         <tbody>
             <tr>
               <th>nombres</th>
@@ -81,8 +75,8 @@
 
     <br>
 
-    <h2>tabla 3: colspan</h2>
-    <hr>
+    <h3>Tabla 3: Colspan</h3>
+    
     <table border="1" class="table-3">
       <thead>
         <tr>
@@ -112,14 +106,13 @@
 
     <br>
 
-    <h2>tabla 4:rowspan</h2>
-    <hr>
+    <h3>Tabla 4:Rowspan</h3>
+
     <table border="3" class="table-4">
       <tbody>
         <tr>
           <td rowspan="2"> uno</td>
           <td colspan="5"> dos</td>
-        
         </tr>
         
          <tr>
